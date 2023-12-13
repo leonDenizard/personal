@@ -27,6 +27,11 @@
         "id": 4,
         "topico": "Limpeza de cache do APP anota Ai Mobile",
         "textos": "Por gentileza, será necessário realizar limpeza de cache e dados do app. \n\nVá Configurações > aplicativos > Localize o Anota AI > localize armazenamento > Depois é só clicar em 'Limpar cache' e 'Limpar dados'. \n\nAo realizar a limpeza completa, será necessário desinstalar o APP e reinstalar, \n\nvou lhe passar um vídeo importante desse processo https://www.youtube.com/watch?v=_QV5klMKdu4 \nApós esse procedimento o seu robô irá voltar a responder as mensagens."
+      }, 
+      {
+        "id": 28,
+        "topico": "Robô não responde parte 2",
+        "textos": ["Você esta com o WhatsApp aberto em segundo plano como nesse vídeo: https://www.youtube.com/watch?v=_QV5klMKdu4 \n\nCaso esteja utilizando o WhatsApp aberto junto com Anota AI, o robô pode parar de responder.", "Você poderia verificar se as notificações estão ativas? \n\n Vou lhe ajudar nesse processo: \n\n Clique em configurações > Aplicativos > localize o Anota Ai > Aba privacidade notificações > permitir notificações"]
       }
     ],
     "tuna": [
