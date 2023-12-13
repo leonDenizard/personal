@@ -1,0 +1,23 @@
+*{
+    color: #fff;
+}
+body{
+    position: relative;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #000814;
+    overflow-x: hidden;
+}
+
+body::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 150vh;
+    mix-blend-mode: screen;
+    background-image: url('../texture/noisy.png');
+    -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15));
+    /* mask-image: radial-gradient(circle closest-side at 50% 50%, rgba(0,0,0,0.15), transparent 100%); */
+}

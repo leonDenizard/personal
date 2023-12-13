@@ -1,0 +1,139 @@
+{
+  "data": {
+    "conversacao": [
+      {
+        "id": 0,
+        "topico": "Saudacao",
+        "textos": [
+          "Olá! Me chamo Leon e irei realizar seu atendimento, como posso ajudar?",
+          "Posso lhe ajudar em mais alguma coisa?",
+          "De nada. Precisando é só chamar, estamos à disposição. Bom trabalho 🙏",
+          "Como nosso atendimento se encerra as 23:59 estarei encerrando este chat, caso tenha mais alguma dúvida pode entrar em contato com o chat do suporte das 10h até as 23:59h. Tenha uma boa noite."
+        ]
+      },
+      {
+        "id": 2,
+        "topico": "Alteracao em cardapio - abertura de ticket",
+        "textos": "No momento estamos com fluxo de demanda muito alto e será ajustado no prazo máximo de 24 horas úteis, assim que diminuir o fluxo eu irei ajustar seu cardápio."
+      }
+    ],
+    "mobile": [
+      {
+        "id": 3,
+        "topico": "Robo nao responde no PC - Mobile instalado",
+        "textos": "Peço que desinstale o Anota AI do celular, por favor, pois o aplicativo é uma versão limitada do sistema, destinada somente para os clientes que não possuem computador. No caso isso impacta no funcionamento do seu robô."
+      },
+      {
+        "id": 4,
+        "topico": "Limpeza de cache do APP anota Ai Mobile",
+        "textos": "Por gentileza, será necessário realizar limpeza de cache e dados do app. \n\nVá Configurações > aplicativos > Localize o Anota AI > localize armazenamento > Depois é só clicar em 'Limpar cache' e 'Limpar dados'. \n\nAo realizar a limpeza completa, será necessário desinstalar o APP e reinstalar, \n\nvou lhe passar um vídeo importante desse processo https://www.youtube.com/watch?v=_QV5klMKdu4 \nApós esse procedimento o seu robô irá voltar a responder as mensagens."
+      }
+    ],
+    "tuna": [
+      {
+        "id": 5,
+        "topico": "Acesso",
+        "textos": "Para realizar o acesso ao site é através do endereço: https://console.tuna.uy/anota-ai \n\nVocê não terá a senha, então precisará redefinir ela, clica em esqueci minha senha, e informa o mesmo e-mail que utiliza na plataforma do Anota ai, será enviado um link de redefinição de senha e você poderá acessar o site da tuna e acompanhar por lá, e é possível também alterar os dados bancários no sistema deles."
+      },
+      {
+        "id": 6,
+        "topico": "Alteração de conta bancária COM MESMA titularidade",
+        "textos": "Root: \nCNPJ ou CPF (Vinculado à chave PIX): \nConta: \nAgência: \nBanco:"
+      },
+      {
+        "id": 7,
+        "topico": "Alteração de conta bancária - ALTERAÇÃO DE TITULARIDADE + Abertura de Ticket JRII (CPF)",
+        "textos": "Root: \nCPF (Vinculado à chave PIX): \nConta: \nAgência: \nBanco: \nNome completo da mãe: \nData de nascimento: \nNome completo do cliente:"
+      },
+      {
+        "id": 8,
+        "topico": "Alteração de conta bancária - ALTERAÇÃO DE TITULARIDADE + Abertura de Ticket JRII (CNPJ)",
+        "textos": "Root: \nCNPJ (Vinculado à chave PIX): \nConta: \nAgência: \nBanco: \nRazão Social:"
+      },
+      {
+        "id": 9,
+        "topico": "PIX Ativou sozinho - Passar Root pro Matheus, perguntar ao cliente se quer realizar desativação, confirmar titularidade e dados bancários.\n\n caso tenha atrito devido a taxa, informar que vamos dar o valor da taxa de desconto na próxima mensalidade: \nabrir ticket [TUNA] desconto mensalidade assinar Greice",
+        "textos": "Pedimos desculpas pelo desconforto causado. Queremos assegurar que nossa equipe técnica já está ciente, estamos realizando monitoramento e análises, afim de evitar que isso aconteça novamente. \nValorizamos sua confiança em nossos serviços e estamos empenhados em melhorar constantemente para atender às suas expectativas."
+      }
+    ],
+    "impressora":[
+      {
+        "id": 10,
+        "topico": "Drivers - Download",
+        "textos": "https://github.com/Delutto/thermal_printers"
+      },
+      {
+        "id": 11,
+        "topico": "Consultar IP da impressora",
+        "textos": "https://zakpay.zendesk.com/hc/pt-br/articles/7229243640339-Obtendo-o-endereço-IP-da-impressora"
+      },
+      {
+        "id":12,
+        "topico": "Abertura control printers no W11",
+        "textos": "explorer shell:::{A8A91A66-3A7D-4424-8D24-04E180695C7A}"
+      },
+      {
+        "id": 13,
+        "topico": "Corte de impressão",
+        "textos": [
+          "\\x1B\\x6D","\\x1B\\x77"
+        ]
+      },
+      {
+        "id": 14,
+        "topico": "Reiniciandp Spooler de impressão via CMD",
+        "textos": [
+          "net stop spooler", "net start spooler", "netstat -o -a", "netstat -o -n –a"
+        ]
+      },
+      {
+        "id": 15,
+        "topico": "Não sendo possível configurar impressora",
+        "textos": "Infelizmente eu não foi possível instalar a impressora, ela não está se conectando no seu computador, pode ser problema na impressora ou no cabo dela de conexão ou em alguma porta do computador. Recomendamos que entre em contato com um técnico especializado para avaliar e resolver o problema. Eles terão os conhecimentos necessários para diagnosticar e solucionar qualquer questão técnica relacionada à instalação da impressora."
+      },
+      {
+        "id": 16,
+        "topico": "Compartilhar impressão erro 000xb",
+        "textos": "H_KEY_LOCAL_MACHINE = RpcAuthnLevelPrivacyEnabled"
+      }
+    ],
+    "facebook - instagram":[
+      {
+        "id": 17, 
+        "topico": "Conectar Robô no Instagram e vincular na página do Facebook",
+        "textos": "1 - Checar se é premium \n2 - Checar se tem instagram business \n2 - Conectar anota ai no navegador \n3 - Conectar facebook e instagram \n4 - Checar se instagram está conta empresarial(Mais -> Configurações -> ) \n5 - Checar se contas estão vinculadas (No facebook, com pagina conectada -> Clicar na foto canto superior direito -> Configurações de privacidade -> Configurações -> Contas vinculadas) \n6 - Conectar na plataforma anotai \n7 - Ativar envio de mensagens (No facebook, com pagina conectada -> Clicar na foto canto superior direito -> Configurações de privacidade -> Configurações -> Nova experiência de páginas -> Configuração de envio de mensagens)"
+      }
+    ],
+    "Integracao":[
+      {
+        "id": 20,
+        "topico": "Integração Ifood Pedidos",
+        "textos": "youtube.com/watch?v=ZW_-YbVfY5Y"
+      },
+      {
+        "id": 21,
+        "topico": "Integração Ifood Pedidos - Config extras",
+        "textos": "1km - R$ 8,99 \n2km - R$ 9,99 \n3km - R$ 11,99 \n4km - R$ 13,99 \n5km - R$ 15,99 \n6km - R$ 17,99 \n7km - R$ 19,99 \n8km - R$ 19,99 \n9km - R$ 23,99 \n10km - R$ 25,99 \n\nBandeiras: \nMastercard, Visa, Elo, Amex, Hipercard"
+      }
+    ],
+    "Trial":[
+      {
+        "id": 18,
+        "topico": "Cadastro de regiões de atendimento",
+        "textos": "Para configurar suas Taxas de Entrega no sistema, acesse: \nMenu lateral > Configurações > Estabelecimento \nNa tela seguinte, selecione '7. Regiões de atendimento' \n\nApós realizar as configurações desejadas, clique no botão 'Salvar' \n\nVou lhe mandar um vídeo que ajuda nesse processo: https://www.youtube.com/watch?v=X3coMngaOQ8"
+      },
+      {
+        "id": 19,
+        "topico": "Cadastro de cardápio",
+        "textos": "https://www.youtube.com/playlist?list=PLPszzQYdSIN8hu2HuZTZKoOlBji0aX_I6"
+      }
+    ],
+    "Dados Financeiro":[
+      {
+        "id": 23,
+        "topico": "Dados Financeiro / Super",
+        "textos": "Root: \nNome: \nE-mail: \nTelefone: \nLink do moskit: \nAssunto: "
+      }
+    ]
+  }
+}
