@@ -8,7 +8,7 @@
           "Olá! Me chamo Leon e irei realizar seu atendimento, como posso ajudar?",
           "Posso lhe ajudar em mais alguma coisa?",
           "De nada. Precisando é só chamar, estamos à disposição. Bom trabalho 🙏",
-          "Como nosso atendimento se encerra as 23:59 estarei encerrando este chat, caso tenha mais alguma dúvida pode entrar em contato com o chat do suporte das 10h até as 23:59h. Tenha uma boa noite."
+          "Infelizmente precisaremos encerrar o nosso chat devido o final do horário de expediente. Quaisquer dúvidas, fique a vontade para entrar em contato amanhã a partir das 10h até as 23:59h. 🙏 Tenha um bom descanso e uma ótima noite 🌜"
         ]
       },
       {
@@ -21,7 +21,7 @@
       {
         "id": 3,
         "topico": "Robo nao responde no PC - Mobile instalado",
-        "textos": "Peço que desinstale o Anota AI do celular, por favor, pois o aplicativo é uma versão limitada do sistema, destinada somente para os clientes que não possuem computador. No caso isso impacta no funcionamento do seu robô."
+        "textos": "Peço que desinstale o Anota AI do celular, por favor, pois o aplicativo é uma versão limitada do sistema, destinada somente para os clientes que não possuem computador. No caso isso impacta no funcionamento do seu robô. \n\n Sei que precisa utilizar no celular também, por isso lhe oriento à acessar através do Google pelo site: admin.anota.ai"
       },
       {
         "id": 4,
@@ -92,6 +92,11 @@
         ]
       },
       {
+        "id": 29,
+        "topico": "Programa impressora",
+        "textos": "https://anotaai-printer.s3.sa-east-1.amazonaws.com/Impressora+Anota+AI-v4-7.exe"
+      },
+      {
         "id": 15,
         "topico": "Não sendo possível configurar impressora",
         "textos": "Infelizmente eu não foi possível instalar a impressora, ela não está se conectando no seu computador, pode ser problema na impressora ou no cabo dela de conexão ou em alguma porta do computador. Recomendamos que entre em contato com um técnico especializado para avaliar e resolver o problema. Eles terão os conhecimentos necessários para diagnosticar e solucionar qualquer questão técnica relacionada à instalação da impressora."
@@ -119,6 +124,11 @@
         "id": 21,
         "topico": "Integração Ifood Pedidos - Config extras",
         "textos": "1km - R$ 8,99 \n2km - R$ 9,99 \n3km - R$ 11,99 \n4km - R$ 13,99 \n5km - R$ 15,99 \n6km - R$ 17,99 \n7km - R$ 19,99 \n8km - R$ 19,99 \n9km - R$ 23,99 \n10km - R$ 25,99 \n\nBandeiras: \nMastercard, Visa, Elo, Amex, Hipercard"
+      },
+      {
+        "id": 32,
+        "topico": "Integração e-mail",
+        "textos": "integracao@anota.ai"
       }
     ],
     "Trial":[
@@ -138,6 +148,20 @@
         "id": 23,
         "topico": "Dados Financeiro / Super",
         "textos": "Root: \nNome: \nE-mail: \nTelefone: \nLink do moskit: \nAssunto: "
+      }
+    ],
+    "Anota ai versão antiga":[
+      {
+        "id": 30,
+        "topico": "Anota Ai Antigo",
+        "textos": "https://anotaai-production-extension.s3.dualstack.us-east-1.amazonaws.com/Anota+AI+Responde+Setup+1.1.9.exe"
+      }
+    ],
+    "WhatsApp Banido":[
+      {
+        "id": 33,
+        "topico": "WhatsApp banindo número do cliente",
+        "textos": "Tipo de whatsapp (normal ou business): \n\nTempo do número:\n\n Versão:\n\n Utiliza alguma ferramenta junto?\n\n Sabe informar se existe alguma empresa importunando o cliente, no WahstApp?\n\n Realiza lista de transmissão? \n\n Realiza divulgação de bebida alcoolica pelo whatsapp? \n\n Quantas conversas possui?\n\n Você exclui conversas? "
       }
     ]
   }
