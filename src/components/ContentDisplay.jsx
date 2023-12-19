@@ -1,13 +1,10 @@
 import React, { useState } from 'react';
 
-// Componente que exibe os dados com base na seleção do menu
 const ContentDisplay = ({ dados }) => {
   const [copiedText, setCopiedText] = useState('');
 
   const handleCopyText = (text) => {
-    // Copie o texto para a área de transferência
     navigator.clipboard.writeText(text);
-    // Atualize o estado para mostrar que o texto foi copiado
     setCopiedText(`Texto copiado: ${text}`);
   };
 
